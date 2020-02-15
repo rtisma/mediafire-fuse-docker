@@ -1,0 +1,12 @@
+version: '3.7'
+services:
+  mediafire-fuse:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    privileged: true
+    environment:
+      MEDIAFIRE_USERNAME: "$MEDIAFIRE_USERNAME"
+      MEDIAFIRE_PASSWORD: "$MEDIAFIRE_PASSWORD"
+    volumes:
+      - "./mediafire-data:/mediafire/host"
