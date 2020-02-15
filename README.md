@@ -1,7 +1,7 @@
 mediafire-fuse for Docker
 ---
 
-# Descrition
+# Description
 Since mediafire-fuse was not easy to install on Manjaro, I created this "sandbox" environment to help with downloading many large files to my local machine (or docker host). 
 
 # Requirements
